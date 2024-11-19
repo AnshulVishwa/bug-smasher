@@ -1,0 +1,8 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+#root{
+    height: 100%;
+    width: 100%;
+}

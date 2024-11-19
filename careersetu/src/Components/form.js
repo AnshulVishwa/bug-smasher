@@ -1,15 +1,28 @@
-import React from 'react'
-
+import React, { useState } from 'react'
+import './form.css'
 function FormBackend() { 
+  let [ passType , setpassType ] = useState("text")
   return (
     <>
-        <div>
-            <h1>Hello GUyz</h1>
-            <div>
-                <span>Username :</span><input type="text" className="UName" placeholder='Enter your username'/><br/>
-                <span>Password :</span><input type="text" className="Pass" placeholder='Enter your password'/><br/>
-                <button className="combtn">Log In</button>
-            </div>
+        <div className='formBody'>
+          <main>
+              <h1>Welcome to Carrer Setu!</h1>
+              <div className='content'>
+                <div className='inputBox'>
+                  <span className="Lsdei">Username : </span>
+                  <input type="text" className="UName" placeholder='Enter your username'/><br/>
+                </div>
+                <div className='passBox'>
+                  <span className='Lsdei'>Password : </span>
+                  <input type={passType} onClick={()=>setpassType((passType == "text") ? "password" : "text")} className="Pass" placeholder='Enter your password'/>
+                  <div className='eye'>
+                    <i class="fa-solid fa-eye-slash"></i>
+                  </div>
+                </div>
+                  <button className="combtn">Log In</button><br/>
+                  <span className='forgot_password'><a href='#'>Forgot Password?</a></span>
+              </div>
+          </main>
         </div>
     </>
   )
