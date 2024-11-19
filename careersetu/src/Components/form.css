@@ -14,6 +14,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background: url("background.png");
 }
 .content {
     display: flex;
@@ -22,30 +23,19 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    background: red;
 }
 input.UName {
     height: 2em;
-    border-radius: 9px;
-    border: none;
-    outline: none;
+    box-shadow: 0 0 10px white , inset 0 0 10px white;
     margin-left: 10px;
     padding-left: 8px;
+    caret-color: white;
 }
 input.Pass {
     height: 2em;
-    border-radius: 9px;
+    box-shadow: 0 0 10px white , inset 0 0 10px white;
     padding-left: 8px;
     margin-left: 15px;
-    border: none;
-    outline: none;
-}
-button.combtn {
-    height: 2.5em;
-    width: 8em;
-    border-radius: 9px;
-    outline: none;
-    border: none;
 }
 main {
     background: #975e5e;
@@ -66,5 +56,53 @@ h1 {
     position: relative;
     width: 0;
     left: -1.4em;
-    top: 4px;
+}
+img.imageLogo {
+    height: 15em;
+}
+.imagediv{
+    height: 50%;
+}
+.title{
+    height: 10%;
+    /* font-size: small; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.tagline{
+    font-size: x-small;
+}
+.welcome{
+    font-size: larger;
+    text-align: center;
+}
+.UName , .Pass{
+    font-weight: 500;
+    font-size: medium;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    box-shadow: 0 0 2px solid black , inset 0 0 2px black;
+}
+.passBox , .inputBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 157, 0);
+}
+.combtn{
+    color: black;
+    background-color: #FF9800;
+    height: 2.5em;
+    width: 8em;
+    border: none;
+    outline: none;
+    border-radius: 0.3em;
+    color: white;
+    box-shadow: 0 0 10px #FF9800 , inset 0 0 10px #FF9800;
 }

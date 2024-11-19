@@ -5,20 +5,20 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createRoot } from "react-dom/client";
 import FormBackend from './Components/form';
-import HomePage from './Components/home';
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import LoadingPage from './Components/loadingPage';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <FormBackend />
+    element: <LoadingPage />
   },
   {
     path : "/home",
-    element : <HomePage />
+    element : <FormBackend />
   }
 ]);
 
