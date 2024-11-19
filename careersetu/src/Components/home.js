@@ -1,9 +1,11 @@
 import React from 'react'
-
+import './HomeInt.css'
 function HomePage() {
   return (
     <>
-        <h1>Home page</h1>
+        <div className="imagediv">
+          <img className='imageLogo' src={logo}></img>
+        </div>
     </>
   )
 }
