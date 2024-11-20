@@ -11,6 +11,7 @@ import {
 } from "react-router-dom";
 import LoadingPage from './Components/loadingPage';
 import HomePage from './Components/home';
+import IndexPage from './Components/profile/profile';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: "/home",
     element: <HomePage/>
+  },
+  {
+    path : "/load",
+    element : <IndexPage />
   }
 ]);
 

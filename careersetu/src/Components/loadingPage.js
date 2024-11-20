@@ -5,7 +5,7 @@ import { Link, useNavigate } from 'react-router-dom'
 function LoadingPage() {
     const navigate = useNavigate();
     setTimeout( ()=>{
-        navigate("/home")
+        navigate("/load")
     } , 2000 )
   return (
     <main>

@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body {
+    height: 100vh;
+    width: 100vw;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../background.png");
+    background-size: cover;
+}
+main.main {
+    height: 80%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+}
+img.logoimage {
+    height: 100%;
+}
+.logo {
+    height: 27em;
+}
+.content-div {
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    height: 25%;
+    margin: 5em 0em;
+}
+img.imageImage {
+    height: 100%;
+}
+img.imageImage:hover {
+    transition: all;
+    transition-duration: 0.3s;
+    border-radius: 2em;
+    box-shadow: 12px 0 32px #f7941d, inset 15px 0 32px #f7941d;
+}
+

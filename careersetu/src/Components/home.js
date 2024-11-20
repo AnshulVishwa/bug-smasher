@@ -41,6 +41,13 @@ function HomePage() {
               </div>
             </div>
     </nav>
+    <div>
+      <div><h1>NEWS</h1></div>
+      <div className='card'></div>
+      <div className='card'></div>
+      <div><i className='fa fa-arrow-circle-right'></i></div>
+      <div><i className='fa fa-arrow-circle-left'></i></div>
+    </div>
     </>
   )
 }

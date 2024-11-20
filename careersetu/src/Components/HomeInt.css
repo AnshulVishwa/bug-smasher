@@ -65,3 +65,7 @@ img.imageLogo {
 .fa-home{
     margin-top: 5px;
 }
+.card{
+    width: 85%;
+    height: 5%;
+}
