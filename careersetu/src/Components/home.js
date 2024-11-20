@@ -4,6 +4,7 @@ import certificate from "./VoidHacks/certificate.jpg"
 import sgpa from "./VoidHacks/cgpa.jpg"
 import assign from "./VoidHacks/assign.jpg"
 import logo from "./VoidHacks/Logo.png"
+import home from "./VoidHacks/Logo.png"
 
 function HomePage() {
   return (
@@ -35,7 +36,7 @@ function HomePage() {
               </div>
               <div className='next-to-next-div'>
                 <div className="nav-sub3">
-                    <img src={sgpa} alt="sgpa image" />
+                    <i className='fa fa-home' />
                 </div>
               </div>
             </div>

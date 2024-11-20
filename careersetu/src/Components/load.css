@@ -7,8 +7,8 @@ main{
     justify-content: center;
     align-items: center;
 }
-imageLoad{
-    height: 30%;
+.imageLoad{
+    height: 10em;
     animation: animate 2s ease-in-out  1  ;
 }
 @keyframes animate {
