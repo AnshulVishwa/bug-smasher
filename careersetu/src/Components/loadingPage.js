@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import logo from "./Logo.png"
+import logo from "./VoidHacks/Logo.png"
 import "./load.css"
 import { Link, useNavigate } from 'react-router-dom'
 function LoadingPage() {

@@ -10,6 +10,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import LoadingPage from './Components/loadingPage';
+import HomePage from './Components/home';
 
 const router = createBrowserRouter([
   {
@@ -17,8 +18,12 @@ const router = createBrowserRouter([
     element: <LoadingPage />
   },
   {
-    path : "/home",
+    path : "/login",
     element : <FormBackend />
+  },
+  {
+    path: "/home",
+    element: <HomePage/>
   }
 ]);
 

@@ -7,3 +7,58 @@ img.imageLogo {
 .imagediv{
     height: 50%;
 }
+.nav-sub1 img{
+    height: 8em;
+}
+.nav-sub2 , .nav-sub3 , .nav-sub4{
+    border: 1px solid black;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    border-radius: 50%;
+}
+.nav-sub2 img , .nav-sub3 img, .nav-sub4 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.nav-sub1 {
+    display: flex
+;
+    justify-content: start;
+    align-items: center;
+    /* background: red; */
+    width: 60%;
+    height: 15em;
+}
+.home-content {
+    height: 12em;
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 10em;
+    position: absolute;
+    top: 1.5em;
+    left: 6em;
+}
+.certificate-div, .next-to-next-div {
+    width: 7em;
+    position: relative;
+    right: 1.3em;
+}
+.assignment-div , .next-div{
+    position: relative;
+    width: 5em;
+}
+.sgpa-div{
+    position: relative;
+    width:3em
+}
+.certificate-div {
+    top: 10px;
+}
+.next-to-next-div{
+    bottom: 10px;
+}

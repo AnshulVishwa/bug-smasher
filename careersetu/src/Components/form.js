@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './form.css'
-import logo from "./Logo.png"
+import logo from "./VoidHacks/Logo.png"
 function FormBackend() { 
   // To change the password type 
   let [ passType , setpassType ] = useState("password")
